@@ -1,7 +1,6 @@
 ---
 - hosts: all
   sudo: true
-  user: root
 
   pre_tasks:
     - name: update apt cache
